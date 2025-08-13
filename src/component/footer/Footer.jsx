@@ -1,5 +1,5 @@
 import React from 'react'
-import qrcode from '../../assets/qr-Code.png'
+import qrcode from '../../assets/qr-code.png'
 import playstore from '../../assets/GooglePlay.png'
 import appstore from '../../assets//AppStore.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
