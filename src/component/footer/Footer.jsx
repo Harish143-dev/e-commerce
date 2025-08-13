@@ -1,9 +1,9 @@
 import React from 'react'
-import qrcode from '../../assets/QR Code.png'
+import qrcode from '../../assets/qr-Code.png'
 import playstore from '../../assets/GooglePlay.png'
 import appstore from '../../assets//AppStore.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRotateForward, faForward, faForwardStep, faMailForward, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import {  faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { faFortAwesome } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
