@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import loginBgImg from '../../assets/login.jpg'
 
 const Login = () => {
 
     const [loginState, setLoginState] = useState("Create an Account")
 
-    const bgImg = {img : 'src/assets/login.jpg'}
     return (
         <div>
             {/* Login Details */}
-            <div style={{backgroundImage : `url(${bgImg.img})`}} className='h-screen bg-cover bg-center bg-no-repeat relative flex justify-center items-center'>
+            <div style={{backgroundImage : `url(${loginBgImg})`}} className='h-screen bg-cover bg-center bg-no-repeat relative flex justify-center items-center'>
                 <div className='flex flex-col justify-center items-baseline gap-10 px-30'>
                     <div className='flex flex-col items-baseline gap-2'>
                         <p className='text-2xl font-semibold'>{loginState === 'Create an Account' ? loginState : "Login"}</p> <></>

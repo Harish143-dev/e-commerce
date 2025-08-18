@@ -10,13 +10,10 @@ import Exploreproduct from '../component/explore/Exploreproduct';
 import Newarrival from '../component/new arrival/Newarrival';
 import Service from '../component/service/Service';
 import Footer from "../component/footer/Footer";
+import jbl from '../assets/ jblspeaker.png'
 
 const Home = () => {
 
-    // jbl poster url
-    const jblimg = {
-        url: 'src/assets/jblspeaker.png'
-    }
     return (
 
         // header in language option section
@@ -70,7 +67,7 @@ const Home = () => {
 
             {/* JBL Poster */}
             <div className='relative py-10'>
-                <div style={{ backgroundImage: `url(${jblimg.url})` }} className='rounded-sm px-10 mx-auto py-20 w-[80%] h-120 bg-cover max-lg:bg-right duration-500'>
+                <div style={{ backgroundImage: `url(${jbl})` }} className='rounded-sm px-10 mx-auto py-20 w-[80%] h-120 bg-cover max-lg:bg-right duration-500'>
                     <div className='flex flex-col gap-10 lg:w-[40%] text-white justify-center items-baseline'>
                         <p className='text-green-600 font-bold'>Categories</p>
                         <p className='text-5xl max-lg:text-3xl font-bold'>Enchance Your Music Experiece</p>
