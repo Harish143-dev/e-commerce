@@ -10,7 +10,7 @@ import Exploreproduct from '../component/explore/Exploreproduct';
 import Newarrival from '../component/new arrival/Newarrival';
 import Service from '../component/service/Service';
 import Footer from "../component/footer/Footer";
-import jbl from '../assets/ jblspeaker.png'
+import jbl from '../assets/jblspeaker.png'
 
 const Home = () => {
 
