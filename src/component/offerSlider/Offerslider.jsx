@@ -2,24 +2,27 @@ import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faApple, faSitrox } from "@fortawesome/free-brands-svg-icons"
 import { faAngleRight, faArrowRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons"
+import iphone from '../../assets/iphone.png'
+import macbook from '../../assets/macbook.png'
+import gamemoniter from '../../assets/gammoniter.png'
 
 const Offerslider = () => {
 
     const imgData = [
         {
-            url: 'src/assets/iphone.png',
+            url: iphone,
             logo: <FontAwesomeIcon icon={faApple} />,
             brand: 'iPhone 16 Series',
             off: '20%'
         },
         {
-            url: 'src/assets/macbook.png',
+            url: macbook,
             logo: <FontAwesomeIcon icon={faApple} />,
             brand: 'MacBook Air',
             off: '10%'
         },
         {
-            url: 'src/assets/gammoniter.png',
+            url: gamemoniter,
             logo: <FontAwesomeIcon icon={faSitrox} />,
             brand: 'Samsung Curve Monitor',
             off: '50%'
